@@ -5,7 +5,7 @@ import { useState } from "react";
 export default function SearchBox({ updateInfo }) {
   let [name, setName] = useState("");
   let [error, setError] = useState(false);
-  let KEY = "9b4cae00793dcf167d1138b976cdf056";
+  let KEY = "YOUR_API_KEY";
 
   let makecall = async () => {
     try {
